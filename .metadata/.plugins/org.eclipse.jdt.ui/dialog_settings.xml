@@ -25,8 +25,8 @@
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="NewClassCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="450"/>
-		<item key="DIALOG_Y_ORIGIN" value="40"/>
+		<item key="DIALOG_X_ORIGIN" value="452"/>
+		<item key="DIALOG_Y_ORIGIN" value="155"/>
 		<item key="DIALOG_WIDTH" value="605"/>
 		<item key="DIALOG_HEIGHT" value="717"/>
 		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|10.0|0|GTK|1|"/>
@@ -37,5 +37,17 @@
 	<section name="NewClassWizardPage">
 		<item key="create_constructor" value="false"/>
 		<item key="create_unimplemented" value="true"/>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item key="width" value="600"/>
+		<item key="height" value="400"/>
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item key="renameSubpackages" value="false"/>
+		<item key="updateTextualMatches" value="false"/>
+		<item key="updateQualifiedNames" value="false"/>
+		<item key="patterns" value="*"/>
+		<item key="updateSimilarElements" value="false"/>
+		<item key="updateSimilarElementsMatchStrategy" value="1"/>
 	</section>
 </section>

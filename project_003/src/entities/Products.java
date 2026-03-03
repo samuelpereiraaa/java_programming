@@ -25,4 +25,9 @@ public class Products {
 		removeStock = sc.nextInt();
 		this.quantity -= removeStock;
 	}
+	
+	public String toString() {
+		return  this.name + ", $ " + String.format("%.2f",this.price) + ", " + this.quantity + 
+				" units, Total: $ " + String.format ("%.2f",totalValueStock());
+	}
 }

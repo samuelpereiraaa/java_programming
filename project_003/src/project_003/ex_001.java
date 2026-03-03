@@ -25,20 +25,20 @@ public class ex_001 {
 		
 		sc.nextLine();
 
-		double resultStock = product.totalValueStock();
+		
 
-		System.out.printf("Product data: %s, $ %.2f, %d units, Total: $ %.2f%n", product.name, product.price, product.quantity,
-				resultStock);
+		System.out.println("Product data: " + product);
+		System.out.println();
 
 		product.addProducts(sc);
 
-		System.out.printf("Update data: %s, $ %.2f, %d units, Total: $ %.2f%n", product.name, product.price, product.quantity,
-				product.totalValueStock());
-
+		System.out.println("Update data: " + product);
+		System.out.println();
+		
 		product.removeProducts(sc);
 
-		System.out.printf("Update data: %s, $ %.2f, %d units, Total: $ %.2f%n", product.name, product.price, product.quantity,
-				product.totalValueStock());
+		System.out.println("Update data: " + product);
+		System.out.println();
 
 		sc.close();
 	}

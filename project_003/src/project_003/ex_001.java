@@ -25,8 +25,6 @@ public class ex_001 {
 		
 		sc.nextLine();
 
-		
-
 		System.out.println("Product data: " + product);
 		System.out.println();
 

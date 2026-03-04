@@ -14,7 +14,7 @@ public class Exercicio03Part3 {
 		
 		System.out.println("name of product: " + newProduct.getName());
 		System.out.println("price of product: " + newProduct.getPrice());
-		System.out.println("price of product: " + newProduct.getStock());
+		System.out.println("stock of product: " + newProduct.getStock());
 		sc.close();
 	}
 }

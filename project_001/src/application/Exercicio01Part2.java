@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 import entities.Dog;
 
-public class Exercicio02Part2 {
+public class Exercicio01Part2 {
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);

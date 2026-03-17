@@ -1,4 +1,4 @@
-package estruturaRepetitiva;
+package structureFor;
 
 import java.util.Scanner;
 

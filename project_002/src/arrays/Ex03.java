@@ -1,4 +1,5 @@
 package arrays;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -7,9 +8,8 @@ public class Ex03 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		int n = 0;
 		System.out.println("Quantos numeros voce vai digitar? ");
-		n = sc.nextInt();
+		int n = sc.nextInt();
 
 		int[] array = new int[n];
 
@@ -23,17 +23,16 @@ public class Ex03 {
 		}
 
 		System.out.println("NUMEROS NEGATIVOS: ");
-		
-		for(int i = 0; i < array.length; i++) {
+
+		for (int i = 0; i < array.length; i++) {
 			if (array[i] < 0) {
 				System.out.printf("%d%n", array[i]);
 			}
 		}
-		/* metodo .filter. da API STREAM
-		Arrays.stream(array) 
-		.filter(num -> num < 0)
-		.forEach(System.out::println);
-		*/
+		/*
+		 * metodo .filter. da API STREAM Arrays.stream(array) .filter(num -> num < 0)
+		 * .forEach(System.out::println);
+		 */
 		sc.close();
 	}
 
